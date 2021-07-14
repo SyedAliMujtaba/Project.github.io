@@ -419,7 +419,7 @@ footer h4{
 @media(max-width:700px) {
     /* for header */
     .text h1{
-        font-size: 24px;
+        font-size: 23.5px;
     }
     .logo h2{
         font-size: 20px;
