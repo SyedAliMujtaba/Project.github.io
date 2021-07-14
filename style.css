@@ -17,7 +17,6 @@ header{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 62%;
-    text-transform: capitalize;
 }
 h1{
     font-size: 100px;
@@ -60,7 +59,7 @@ p{
         margin-bottom: 15px;
     }
     p{
-        font-size: 12px;
+        font-size: 11px;
     }
     .btn{
         display: block;
