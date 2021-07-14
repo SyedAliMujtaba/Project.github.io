@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sub-header">
+        <nav>
+            <div class="logo">
+                <img src="img/icon.png">
+                <h2>DevAli</h2>
+            </div>
+            <div class="menu" id="menu">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="title">About Us</h1>
+    </header>
+    <!-- header ended -->
+
+    <!-- about us content -->
+    <section class="aboutus">
+        <div class="row">
+            <div class="aboutus-col">
+                <h1>We are the world's largest university.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptate? Adipisci voluptatibus quos ipsam, distinctio provident quam quibusdam, tempora fuga eaque commodi laudantium. Corrupti expedita error vero architecto dicta quaerat.</p>
+                <a href="#" class="btn btn-2">Explore Now</a>
+            </div>
+            <div class="aboutus-col">
+                <img src="img/about.jpg">
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni,  <br> quis consectetur voluptates  Quam</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by DevAli</p>
+    </footer>
+    <!-- footer ended -->
+
+    <!-- js for menu toggle -->
+    <script>
+        var menu = document.getElementById("menu");
+
+        function showMenu(){
+            menu.style.right = "0"
+        }
+        function hideMenu(){
+            menu.style.right = "-200px"
+        }
+    </script>
+
+</body>
+</html>
